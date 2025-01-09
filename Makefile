@@ -5,6 +5,7 @@ OBJS = $(patsubst src/%,$(BUILDDIR)/%,$(SRCS:.cpp=.o))
 
 PREFIX ?= /usr/local
 BINDIR ?= $(PREFIX)/bin
+DATADIR ?= $(PREFIX)/share
 BUILDDIR = build
 
 CXXFLAGS += -Oz -s -Wall -flto
@@ -35,6 +36,8 @@ $(BUILDDIR)/%.o: src/%.cpp
 install: $(BINS)
 	@echo "Installing..."
 	@install -D -t $(DESTDIR)$(BINDIR) $(BUILDDIR)/$(BINS)
+	@install -D -t $(DESTDIR)$(DATADIR)/applications data/mathfairy.desktop
+	@install -D -t $(DESTDIR)$(DATADIR)/pixmaps data/mathfairy.svg
 
 clean:
 	@echo "Cleaning up"

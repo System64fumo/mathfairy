@@ -1,5 +1,15 @@
-# mathfairy
-Simple calculator i made because other ones look far too terrible for me to use.<br>
-Seriously this was made because i was annoyed by how nobody seems to know how to write a calculator that scales up properly on vertical displays: eg my phone.
+<img align="left" width="110" src="./data/mathfairy.svg"/></img>
+### MathFairy
+The strongest calculator in gensokyo<br><br>
+<hr>
 
-What else is there to say? It's just a calculator.
+## Why does this exist?
+Because people seriously don't know how to make calculators scale properly on portrait orientations.<br>
+There is a serious lack of UI designers on linux..<br>
+
+## Why is it called MathFairy?
+Because i need to pass [math class](https://www.youtube.com/watch?v=V_bQNPG2OyE). (My grades are terrible)<br>
+
+> [!NOTE]
+> The icon is not final.<br>
+> Looking for an artist.<br>
