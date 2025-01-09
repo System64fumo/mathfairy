@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Math Fairy
+GenericName=Calculator
+Comment=The strongest calculator in gensokyo 
+Icon=mathfairy
+Exec=mathfairy
+Categories=GTK;Utility;Calculator;
+StartupNotify=true
