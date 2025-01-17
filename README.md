@@ -3,6 +3,8 @@
 The strongest calculator in gensokyo<br><br>
 <hr>
 
+[![Packaging status](https://repology.org/badge/vertical-allrepos/mathfairy.svg)](https://repology.org/project/mathfairy/versions)
+
 ## Why does this exist?
 Because people seriously don't know how to make calculators scale properly on portrait orientations.<br>
 There is a serious lack of UI designers on linux..<br>
