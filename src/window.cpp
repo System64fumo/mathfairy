@@ -3,6 +3,8 @@
 #include <gtkmm/button.h>
 
 mathfairy::mathfairy() : box_main(Gtk::Orientation::VERTICAL) {
+	set_title("Math Fairy");
+	set_default_size(300, 560);
 	set_child(box_main);
 	box_main.append(entry_result);
 	box_main.append(grid_numpad);
